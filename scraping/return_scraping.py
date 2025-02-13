@@ -1,3 +1,7 @@
+####
+#出戻り金のスクレイピングを行うプログラム#
+####
+
 from time import sleep
 from requests import get
 from datetime import datetime as dt
@@ -14,14 +18,14 @@ START_DATE = "2021-09-01"
 END_DATE = "2021-09-02"
 
 # ファイルの保存先を指定　※コラボでGoogleドライブをマウントした状態を想定
-SAVE_DIR = "./data/lzhs/"
+SAVE_DIR = "./data/return_lzhs/"
 # 解凍したファイルを保存する場所を指定
-TXT_FILE_DIR = "./data/results_txt/"
+TXT_FILE_DIR = "./data/return_results_txt/"
 # CSVファイルを保存する場所を指定
-CSV_FILE_DIR = "./data/results_csv/"
+CSV_FILE_DIR = "./data/return_results_csv/"
 
 # CSVファイルの名前を指定
-CSV_FILE_NAME = "results.csv"
+CSV_FILE_NAME = "return_results.csv"
 
 # リクエスト間隔を指定(秒)　※サーバに負荷をかけないよう3秒以上を推奨
 INTERVAL = 3
