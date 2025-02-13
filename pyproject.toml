@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "boatrace"
+version = "0.1.0"
+description = ""
+authors = ["Yusuke3974 <ritchie.deep.purple@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+numpy = "^2.2.2"
+pandas = "^2.2.3"
+scikit-learn = "^1.6.1"
+lightgbm = "^4.5.0"
+beautifulsoup4 = "^4.13.3"
+tqdm = "^4.67.1"
+lhafile = "^0.3.0"
+chardet = "^5.2.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
