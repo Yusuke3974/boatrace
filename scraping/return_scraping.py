@@ -28,7 +28,7 @@ CSV_FILE_DIR = "./data/return_results_csv/"
 CSV_FILE_NAME = "return_results.csv"
 
 CSV_DETAILS_DIR = "./data/race_details_csv/"
-CSV_DETAILS_NAME = "timetable_YYYYMMDD-YYYYMMDD.csv"
+CSV_DETAILS_NAME = "results_YYYYMMDD-YYYYMMDD.csv"
 
 # リクエスト間隔を指定(秒)　※サーバに負荷をかけないよう3秒以上を推奨
 INTERVAL = 3
